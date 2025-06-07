@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gửi Bé Bơ Của Anh</title>
+    <style>
+        /* --- Import Phông chữ từ Google Fonts --- */
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@400;600&display=swap');
+
+        /* --- Thiết lập chung cho trang --- */
+        body {
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(135deg, #fce4ec, #f8bbd0); /* Nền màu hồng chuyển sắc */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            color: #444;
+        }
+
+        /* --- Khung chứa nội dung chính --- */
+        .container {
+            background-color: rgba(255, 255, 255, 0.85); /* Nền trắng mờ */
+            backdrop-filter: blur(10px); /* Hiệu ứng kính mờ */
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            padding: 40px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        /* Hiệu ứng khi di chuột vào khung */
+        .container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        /* --- Tiêu đề chính (Tên "Bé Bơ") --- */
+        h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3.5rem; /* Cỡ chữ lớn */
+            color: #c2185b; /* Màu hồng đậm */
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* --- Đoạn văn mô tả --- */
+        p {
+            font-size: 1.1rem;
+            line-height: 1.8; /* Giãn dòng cho dễ đọc */
+            text-align: justify; /* Căn đều hai bên */
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* --- Chân trang --- */
+        .footer {
+            font-size: 1rem;
+            color: #ad1457;
+            font-weight: 600;
+        }
+        
+        /* Biểu tượng trái tim */
+        .heart {
+            color: #d81b60;
+            font-size: 1.2rem;
+            animation: beat 1.2s infinite ease-in-out; /* Hiệu ứng trái tim đập */
+        }
+
+        /* Hiệu ứng nhịp đập cho trái tim */
+        @keyframes beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.15);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Gửi Bé Bơ Của Anh</h1>
+        <p>
+            Trong mắt anh, bé Bơ là một tuyệt tác của tạo hóa. Em không chỉ xinh đẹp theo một cách rất riêng, mà còn sở hữu một sức hấp dẫn khó tả. Nét đẹp của em là sự hòa quyện giữa vẻ ngoài cuốn hút và trí tuệ sắc sảo. Mỗi khi em cười, dường như cả thế giới xung quanh anh cũng bừng sáng, và ánh mắt em lấp lánh niềm kiêu hãnh của một cô gái tài năng với chứng chỉ IELTS 7.5 trong tay. Anh yêu cả những đường cong mềm mại, quyến rũ trên cơ thể em, một vẻ đẹp đầy đặn, căng tràn sức sống mà anh trìu mến gọi là "phúc hậu". Vẻ đẹp hình thể ấy hòa quyện một cách hoàn hảo với sự thông minh, duyên dáng trong từng lời nói, cử chỉ của em. Ở bên Bơ, anh tìm thấy một người bạn gái không chỉ để yêu thương, mà còn để ngưỡng mộ. Em là minh chứng sống động cho vẻ đẹp toàn diện, nơi ngoại hình và trí tuệ cùng nhau tỏa sáng, tạo nên một sức hút không thể chối từ. Em chính là "bé Bơ" xinh đẹp, quyến rũ và thông minh của lòng anh.
+        </p>
+        <div class="footer">
+            Từ người luôn yêu em - Đức Khánh <span class="heart">❤</span>
+        </div>
+    </div>
+
+</body>
+</html>
